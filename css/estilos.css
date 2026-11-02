@@ -9,7 +9,7 @@ body{
 }
 
 :root{
-    --color-principal: #0b0ed7;
+    --color-principal: #470ce9;
     --color-texto: #000000;
     --ancho-max:1140px 
 }
@@ -28,7 +28,7 @@ body{
 }
 
 .logo{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight:bolder;
     color: var(--color-principal);
     text-decoration:none;
