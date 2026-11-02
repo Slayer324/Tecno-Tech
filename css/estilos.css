@@ -9,7 +9,7 @@ body{
 }
 
 :root{
-    --color-principal: #0b5ed7;
+    --color-principal: #0b0ed7;
     --color-texto: #000000;
     --ancho-max:1140px 
 }
@@ -124,35 +124,9 @@ footer a{
     margin:0;
     padding:0;
 }
-.cards { display: flex; flex-wrap: wrap; gap: 1rem; }
-
-.tarjeta {
-    width: 100%;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,.1);
-    overflow: hidden;
-    transition: transform .2s;
-}
-.tarjeta:hover { transform: translateY(-4px); }
 
 @media (min-width: 701px) { .tarjeta { width: calc(50% - .5rem); } }
 @media (min-width: 991px) { .tarjeta { width: calc(33.333% - .67rem); } }
-
-/*acordeon*/
-.accordion .titulo {
-    width: 100%;
-    padding: 1rem;
-    text-align: left;
-    font-size: 1rem;
-    background: #f1f3f5;
-    border: 0;
-    border-bottom: 1px solid #ddd;
-    cursor: pointer;
-}
-
-.accordion .contenido { display: none; padding: 0 1rem; }
-.accordion .item.activo .contenido { display: block; }
 /* base: celular */
 .menu { display: none; }        /* lo abrirá la hamburguesa */
 
