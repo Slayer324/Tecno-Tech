@@ -3,7 +3,7 @@ $errores = [];
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
   $nombre  = trim($_POST["nombre"] ?? "");
-  $correo  = trim($_POST["correo"] ?? "");
+  $correo  = trim($_POST["email"] ?? "");
   $mensaje = trim($_POST["mensaje"] ?? "");
  
   
@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   if (count($errores) === 0) {
     mail(" tecnotech@technologi.com", "Mensaje desde el sitio",
          "Nombre: $nombre\nCorreo: $correo\n\n$mensaje",
-         "From: no-reply tecnotech@technologi.com");
+         "From: no-reply@technologi.com");
     header("Location: gracias.php");
     exit;
   }
