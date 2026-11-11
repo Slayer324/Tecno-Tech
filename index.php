@@ -1,28 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tecno Tech</title>
-    <link rel="stylesheet" href="./css/estilos.css">
-</head>
-<body>
-    <header class="header">
-        <a href="index.html" class="logo">Tecno Tech</a>
-        <button class="hamburguesa" id="btnMenu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-        <nav class="menu">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-
-    </header>
+<?php include 'header.php'; ?>
     <main>
         <section class="Portada contenedor">
             <h2>Bienvenido a Tecno Tech</h2>
@@ -31,15 +7,8 @@
     </main>
       <footer>
         </section>
-
-        <section class="galeria contenedor">
-            <h2>Galería</h2>
-            <p>Algunos de nuestros servicios</p>
-            <img src="./img/img_1.jpg" alt="Venta de perifericos">
-            <img src="./img/img_2.jpg" alt="Venta de dispositivos tecnológicos">
-            <img src="./img/img_4.jpg" alt="Reparacion de equipos">
-            
-        </section>
+<?php include 'galeria.php'; ?>
+       
         <section class="acordeon contenedor">
     <h2>Preguntas Frecuentes</h2>
 
@@ -104,20 +73,6 @@
         </div>
     </div>
 </section>
+
     </main> 
-     <footer class="footer">
-        <div>
-            <p>
-                <strong>Tecno Tech</strong>
-            </p>
-            <p>Teléfono: 2222-2222 - Correo: tecnotech@technologi.com</p>
-        </div>
-        <ul class="redes">
-            <li><a href="https://www.facebook.com/" target="_blank" >Facebook</a></li>
-            <li><a href="https://www.instagram.com/" target="_blank" >Instagram</a></li>  
-        </ul>
-        <p>&copy; 2026 Tecno Tech</p>
-    </footer>
-    <script src="./js/main.js"></script>
-</body>
-</html>
+   <?php include 'footer.php'; ?>

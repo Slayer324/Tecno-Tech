@@ -194,8 +194,8 @@ body{
 .tarjeta p{
     padding:0 1rem 1rem;
 }
-   NOSOTROS
-========================= */
+   
+/*=======NOSOTROS================== */
 
 
 .nosotros{
@@ -204,7 +204,7 @@ body{
 
 
 .nosotros-contenido{
-    max-width:1000px;      dentro de esto
+    max-width:1000px;      
     margin:auto;
     background:var(--color-blanco);
     padding:3rem;
@@ -486,7 +486,7 @@ body{
 }
 
 .footer a:hover{
-    color:#ff9b6c;
+    color:#1e08e6;
 }
 
 .redes{
